@@ -1,6 +1,8 @@
 Vagrant.configure("2") do |config|
 
   #directions found here http://morea-framework.github.io/quickstart-vagrant.html
+  #might need to add C:\HashiCorp\Vagrant\embedded\mingw\bin to the PATH variable
+  #so bsdtar can be found.
 
   config.vm.box = "jekyll"
   config.vm.box_url   = 'https://www.dropbox.com/s/996fbdwwahusryr/moreaframework.box'
