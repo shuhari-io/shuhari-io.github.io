@@ -9,7 +9,7 @@ I should start by saying that my PC is a Windows machine. I like Windows for per
 
 Using Vagrant means that I always start my development with a clean box that is solely devoted to that project.  I don't need to worry about alternate installations for software packages getting mixed up, or messing up my box somehow. If that happens, I just delete my machine and start it up again. Vagrant also allows anyone else that joins my project to start from an identical machine and development environment. While this can complicate some initial setups, it makes continued and shared development way easier.
 
-Unfortunately, running Vagrant on Windows with Angular proved to be a much bigger obstacle than I expected. The Angular setup provided in that post ***what post?*** uses [npm](https://www.npmjs.org/) to handle dependencies. npm (no you don't capitalize it, even at the beginning of a sentence) makes a few assumptions in its implementation that don't play well with the Windows file system.
+Unfortunately, running Vagrant on Windows with Angular proved to be a much bigger obstacle than I expected. The Angular setup that I picked of from [this blog](http://www.angularonrails.com/ruby-on-rails-angularjs-single-page-application/) uses [npm](https://www.npmjs.org/) to handle dependencies. npm (no you don't capitalize it, even at the beginning of a sentence) makes a few assumptions in its implementation that don't play well with the Windows file system.
 
 ## Sharing Folders with a VM
 
@@ -58,4 +58,4 @@ You can see the rest of the Vagrantfile and the completed project at [this GitHu
 
 ## Other Nuisances
 
-Unfortunately, we're still not quite there yet. I ran into a few more hiccups and bugs ***Such As? Teaser*** before our development environment was fully ready. I'll talk about some more fixes in my next post.
+Unfortunately, we're still not quite there yet. I ran into a few more hiccups and bugs (e.g. getting the CSS preprocessor running or exposing the Rails server to the host machine) before our development environment was fully ready. I'll talk about some more fixes in my next post.
