@@ -7,7 +7,9 @@ title: Fixing Our Development Environment
 
 I should start by saying that my PC is a Windows machine. I like Windows for personal use and tolerate it for software development. For most web projects I use [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) to run everything in an Ubuntu virtual machine. That way I can code and view my site in Windows, but still have everything running on Linux.
 
-Unfortunately, Windows as my host machine proved to be the biggest obstacle here. The Angular setup provided in that post uses npm to handle dependencies. npm (no you don't capitalize it, even at the beginning of a sentence) makes a few assumptions in its implementation that don't play well with the Windows file system.
+Using Vagrant means that I always start my development with a clean box that is solely devoted to that project.  I don't need to worry about alternate installations for software packages getting mixed up, or messing up my box somehow. If that happens, I just delete my machine and start it up again. Vagrant also allows anyone else that joins my project to start from an identical machine and development environment. While this can complicate some initial setups, it makes continued and shared development way easier.
+
+Unfortunately, running Vagrant on Windows with Angular proved to be a much bigger obstacle than I expected. The Angular setup provided in that post ***what post?*** uses [npm](https://www.npmjs.org/) to handle dependencies. npm (no you don't capitalize it, even at the beginning of a sentence) makes a few assumptions in its implementation that don't play well with the Windows file system.
 
 ## Sharing Folders with a VM
 
@@ -21,11 +23,15 @@ Vagrant automatically shares the folder it ran from with the VM as `/vagrant`. T
 
 When you do an `npm install`, npm makes heavy use of [symbolic links](http://en.wikipedia.org/wiki/Symbolic_link). By default, Windows does not allow users to create system links. So when npm tries to make them within the shared folder, you get errors about permissions issues.
 
-There are three main ways to fix this. First, you can run `npm install --no-bin-links`. This tells npm not to use symlinks. This can cause unpredictable behavior though, since some npm modules may depend on the symlinks to function correctly or completely.
+There are three main ways to fix this. 
+####First
+You can run `npm install --no-bin-links`. This tells npm not to use symlinks. This can cause unpredictable behavior though, since some npm modules may depend on the symlinks to function correctly or completely.
 
-Second, you can run your Windows command prompt as an administrator. This allows you to create symlinks within Windows, and thus from your VM. But I don't want to do this every time I want to install a new npm module.
+####Second
+You can run your Windows command prompt as an administrator. This allows you to create symlinks within Windows, and thus from your VM. But I don't want to do this every time I want to install a new npm module.
 
-Finally, you can move the target directory out of the shared folder. This way npm installs on just the VM's file system. The problem is, our Angular project is in our shared directory, so we have to create a symlink from our Angular directory to the new target directory. Happily, you only need to create this symlink on VM creation, and it will persist throughout the life of the VM. That does mean we need to run our shell as an administrator for our first `vagrant up`.
+####Third
+You can move the target directory out of the shared folder. This way npm installs on just the VM's file system. The problem is, our Angular project is in our shared directory, so we have to create a symlink from our Angular directory to the new target directory. Happily, you only need to create this symlink on VM creation, and it will persist throughout the life of the VM. That does mean we need to run our shell as an administrator for our first `vagrant up`.
 
 ### Long Path Names
 
@@ -52,4 +58,4 @@ You can see the rest of the Vagrantfile and the completed project at [this GitHu
 
 ## Other Nuisances
 
-Unfortunately, we're still not quite there yet. I ran into a few more hiccups and bugs before our development environment was fully ready. I'll talk about some more fixes in my next post.
+Unfortunately, we're still not quite there yet. I ran into a few more hiccups and bugs ***Such As? Teaser*** before our development environment was fully ready. I'll talk about some more fixes in my next post.
