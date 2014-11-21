@@ -21,6 +21,6 @@ So how do I get them to work together? Luckily my [Bing-fu](http://www.urbandict
 
 The best resource I found was [this blog](http://www.angularonrails.com/ruby-on-rails-angularjs-single-page-application/). I won't repeat everything from the post, you should read it and the other posts on the site which gave me tons of great info on using Angular and Rails together.
 
-A nice bonus from this setup is that it hosts the JavaScript frontend from the same server as our API, without using the Rails asset pipeline. It essentially gives us two development environments for one server. This makes our development and deployment very simple.
+Because we are decoupling our frontend and backend, we could have two separate repositories with two different development environments, even two separate Vagarant boxes. A nice bonus from this setup is that it maintains the code separation and development, but it uses one Vagrant box and deploys to one server. In development, we use [Grunt](http://gruntjs.com/) to serve our JavaScript frontend and to take care of testing and precompilation. For deployment, we build our static files and serve them from the `public` folder in the Rails backend project. This means one push to Heroku for deployment. This makes our development and deployment very simple.
 
 Unfortunately, this tutorial didn't work out of the box for me. This was no fault of the author, I'm just not on a Unix system! Fixing the bugs and getting everything running on [Vagrant](https://www.vagrantup.com/) will be the topic of my next post.
