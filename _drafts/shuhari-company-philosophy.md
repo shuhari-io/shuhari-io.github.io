@@ -3,28 +3,42 @@ layout: post
 title: Shuhari - Our vision for learning
 ---
 
-Here at Shuhari, we want to deliver the web's best educational content to our users. We believe that great educational content already exists on the web and all its missing is some organization to tie it together. We believe that there are existing communities that would love a better way to teach. We believe that communities want to reward their educators and experts. We believe that we can enable a thriving learning ecosystem.
+> Delivering the web's best educational content.
+
+Here at Shuhari, we want to deliver the web's best educational content to our users. Supporting this thought there are a couple core ideas that we believe about the state of online education. 
+
+What we believe:
+
+- Great educational content already exists on the web.
+- That content is poorly organized across platforms.
+- There are existing communities that would love a better way to teach.
+- Communities want to reward their educators and experts. 
+- We can enable a thriving learning ecosystem.
+
 
 ##Problem Space
 
-We believe that there is an abundance of education web content out there, but that it has some issues.
+We believe that the web has an abundance of quality educational content, but accessing that content can be difficult because the content is:
 
-Some of the content is trapped in silo's created by the big tutorial companies (coursera, edx, udacity, udemy...).  Some of the content is completely isolated from any organized educational platform (individual blog posts, forums...).  Some of the content is so poorly organized that it's virtually impossible to find the good stuff and know where to begin (youtube, google search).
-
-It's also hard to know where to begin and how to proceed when learning an entirely new subject or how to proceed after learning a discrete skill
-
-  Either it's completely isolated from other great content, or it's isola
-
-While there is certainly an abundance of educational web content, there is a lack of structure linking these resources into a cohesive whole. Searching YouTube for Photoshop, fire spinning, knitting, or plumbing tutorials turns up an overwhelming amount of videos, but there is no clear way to know where to begin or how to progress through those videos. Discovering how to learn something should be easy.  And it isn't.
+- Trapped in silo's created by the big tutorial companies (coursera, edx, howcast, udacity, udemy...).
+- Completely isolated from any organized educational platform (individual blog posts, forums...).
+- So poorly organized that it's virtually impossible to know where to begin and how to proceed from resource to resource (youtube, google search).
 
 
 ##How Shuhari Helps
 
-Shuhari will deliver the best educational content of the web to our users.
+> Shuhari will deliver the best educational content of the web to our users.
 
-Shuhari will provide structure to all of the educational resources of the web. We will deal with all of the meta information around the varied educational resources that exist, and in so doing will bring the best educational content of the web to our users.  
+Here's how:
 
-Shuhari is a content agnostic platform that provides a educational framework for organizing existing and new content. It is a repository for custom lessons created by users of the site that are called *curators*. These lessons can be on any subject that's educational with an eye towards [Performable and Portable](http://learncapital.com/education-vs-information/) knowledge.
+- Aggregate existing courses from popular providers
+- Enable the easy addition of content into the Shuhari catalog
+- Allow users to curate lesson plans of [Performable and Portable](http://learncapital.com/education-vs-information/) knowledge.
+- Rank courses based upon required proficiency (beginner, intermediate, advanced/Shu, Ha, Ri)
+- Create communities around educational subjects
+- Track user progress through the educational content
+- Shuhari will allow users to create pre-requisite and follow-up links between resources.
+
 
 ###Lesson Aggregation
 We want Shuhari 
