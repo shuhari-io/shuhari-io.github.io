@@ -3,18 +3,17 @@ layout: post
 title: Shuhari - Our vision for learning
 ---
 
-Here at Shuhari, we want to deliver the web's best educational content to our users. We believe that great educational content already exists on the web and all its missing is some organization to tie it together. We believe that there are existing communities would love a better way to teach. We believe that communities want to reward their educators and experts. We believe that we can enable a thriving learning ecosystem.
-
-Shuhari will allow people to curate existing online content into learning plans to suit their own educational needs and to create communities centered on learning. 
-
-This is a bit of a mouthful, lets explore what we mean by that. 
-
+Here at Shuhari, we want to deliver the web's best educational content to our users. We believe that great educational content already exists on the web and all its missing is some organization to tie it together. We believe that there are existing communities that would love a better way to teach. We believe that communities want to reward their educators and experts. We believe that we can enable a thriving learning ecosystem.
 
 ##Problem Space
 
-While there is certainly an abundance of educational web content, there is a lack of structure linking these resources into a cohesive whole. Searching YouTube for fire spinning, knitting, or plumbing tutorials turns up an overwhelming amount of videos, but there is no clear way to know where to begin or how to progress through those videos. 
+We believe that there is an abundance of education web content out there, but that it has some issues.
 
-In summary, discovering how to learn something should be easy.  And it isn't.
+Some of the content is trapped in silo's created by the big tutorial companies.  Some of the content is completely isolated from any organized educational platform.  Some of the content is so poorly organized that it's virtually impossible to find (youtube)
+
+  Either it's completely isolated from other great content, or it's isola
+
+While there is certainly an abundance of educational web content, there is a lack of structure linking these resources into a cohesive whole. Searching YouTube for Photoshop, fire spinning, knitting, or plumbing tutorials turns up an overwhelming amount of videos, but there is no clear way to know where to begin or how to progress through those videos. Discovering how to learn something should be easy.  And it isn't.
 
 
 ##How Shuhari Helps
