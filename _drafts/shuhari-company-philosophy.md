@@ -9,7 +9,9 @@ Here at Shuhari, we want to deliver the web's best educational content to our us
 
 We believe that there is an abundance of education web content out there, but that it has some issues.
 
-Some of the content is trapped in silo's created by the big tutorial companies.  Some of the content is completely isolated from any organized educational platform.  Some of the content is so poorly organized that it's virtually impossible to find (youtube)
+Some of the content is trapped in silo's created by the big tutorial companies (coursera, edx, udacity, udemy...).  Some of the content is completely isolated from any organized educational platform (individual blog posts, forums...).  Some of the content is so poorly organized that it's virtually impossible to find the good stuff and know where to begin (youtube, google search).
+
+It's also hard to know where to begin and how to proceed when learning an entirely new subject or how to proceed after learning a discrete skill
 
   Either it's completely isolated from other great content, or it's isola
 
@@ -18,7 +20,14 @@ While there is certainly an abundance of educational web content, there is a lac
 
 ##How Shuhari Helps
 
+Shuhari will deliver the best educational content of the web to our users.
+
+Shuhari will provide structure to all of the educational resources of the web. We will deal with all of the meta information around the varied educational resources that exist, and in so doing will bring the best educational content of the web to our users.  
+
 Shuhari is a content agnostic platform that provides a educational framework for organizing existing and new content. It is a repository for custom lessons created by users of the site that are called *curators*. These lessons can be on any subject that's educational with an eye towards [Performable and Portable](http://learncapital.com/education-vs-information/) knowledge.
+
+###Lesson Aggregation
+We want Shuhari 
 
 ###Lesson Creation
 Shuhari's curators will be able to take a myriad of resources from around the web and place them into these step-by-step lessons (syllabus) to share with their peers. These lessons will be composed of individual units that can contain video, audio, or text. Each unit, should teach a discrete and measurable bit of knowledge. Each lesson will be tagged with appropriate keywords to make discovery easy, and each lesson will include links to pre-requisite lessons, sibling lessons, and follow up lessons. 
