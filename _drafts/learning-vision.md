@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shuhari - Our vision for learning
+title: Our vision for learning
 ---
 
 > Delivering the web's best educational content.
