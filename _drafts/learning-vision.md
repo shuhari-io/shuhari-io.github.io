@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Our vision for learning
+author: joseph
 ---
 
 > Delivering the web's best educational content.

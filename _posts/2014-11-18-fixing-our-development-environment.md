@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fixing Our Development Environment
+author: brent
 ---
 
 ## Digging In

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Choosing a Technology Stack for Shuhari
+author: brent
 ---
 
 ## The Old World

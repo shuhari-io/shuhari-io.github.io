@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Questions
+author: joseph
 ---
 
 ##questions about the platform. things we need to work on
