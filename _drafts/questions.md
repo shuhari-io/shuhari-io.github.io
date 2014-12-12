@@ -14,3 +14,11 @@ title: Questions
 - How do we encourage an active community?  Credit system... gain credits for doing things like rating the lessons? Creating links between content.
 
 other opportunities
+
+##Future goals
+
+These are some ideas for where we could see Shuhari going as an educational platform.
+
+- Graph of educational information nodes
+- Self creating lessons from graph links
+- Aggregate existing coursework from content silos

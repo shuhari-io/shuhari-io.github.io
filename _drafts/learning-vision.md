@@ -5,9 +5,9 @@ title: Our vision for learning
 
 > Delivering the web's best educational content.
 
-Here at Shuhari, we want to deliver the web's best educational content to our users in a way that makes sense and makes it easy to start and continue learning. Supporting this thought there are a couple core ideas that we believe about the state of online education. 
+Here at Shuhari, we want to deliver the web's best educational content to our users in a way that makes sense and makes it easy to start and continue learning. Supporting this thought, there are a couple core ideas that we believe about the state of online education. 
 
-What we believe:
+###What we believe:
 
 - Great educational content already exists on the web.
 - That content is poorly organized across platforms.
@@ -24,17 +24,16 @@ We believe that the web has an abundance of quality educational content, but acc
 - So poorly organized that it's virtually impossible to know where to begin and how to proceed from resource to resource (Youtube, Google search).
 - Trapped in silo's created by the big tutorial companies (Coursera, Edx, Howcast, Udacity, Udemy...).
 
-While there is certainly an abundance of educational web content, there is a lack of structure linking these resources into a cohesive whole. Searching YouTube for fire spinning, knitting, or plumbing tutorials turns up a large selection of videos, but there is no clear educational path through those videos.
+While there is certainly an abundance of educational web content, there is a lack of structure linking these resources into a cohesive whole. Searching YouTube for fire spinning, knitting, or plumbing tutorials turns up a large selection of videos, but there is no clear educational path through those videos. We will provide the links between that content.
 
 
 ##How Shuhari Helps
 
-> Shuhari will deliver the best educational content of the web to our users by engaging existing communities that are putting out educational content and providing a better platform for their content than what currently exists.
+Shuhari will deliver the best educational content of the web by  engaging existing learning communities and providing an amazing educational platform.
 
 Here's how:
 
-- Enable the easy addition of content into the Shuhari catalog.
-- Allow users to link content together into step by step lesson plans of [Performable and Portable](http://learncapital.com/education-vs-information/) knowledge.
+- Allow users to link [Performable and Portable](http://learncapital.com/education-vs-information/) educational content together into step by step lesson plans.
 - Rank courses based upon required proficiency (beginner, intermediate, advanced/Shu, Ha, Ri).
 - Create communities around educational subjects through sharing and discussion.
 - Track user progress through the educational content.
@@ -49,12 +48,3 @@ The linking between the lessons will allow any curator to fill in gaps in a body
 ###Lesson Consumption
 
 Learning from Shuhari should be as simple and streamlined as possible.  Students will be able to browse all lessons, search for specific classes, and save lessons to a personalized learning plan. We will save a students progress in each lesson and remember what units they are working on or have completed. These bookmarks will allow students to track their progress and pick back up where they left off learning. Students will also be able to share lessons with their peers and encourage a community of learning.
-
-
-##Future goals
-
-These are some ideas for where we could see Shuhari going as an educational platform.
-
-- Graph of educational information nodes
-- Self creating lessons from graph links
-- Aggregate existing coursework from content silos
