@@ -1,0 +1,27 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+.author-img {
+  width: 32px;
+  display: inline-block;
+  margin-right: 7px;
+  vertical-align: top;
+}
+
+.post-author {
+  display: inline;
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0 0 32px;
+  color: #555;
+}
+
+.post-date {
+  display: inline;
+}
+
+.byline {
+  font-size: 18px;
+  
+}

@@ -9,6 +9,9 @@ layout: default
   <div class="post-author">
     {% if author %}
       <!-- Personal Info. -->
+      {% if author.image %}
+        <img src="/public/{{ author.image}}" class="img-circle author-img">
+      {% endif %}
       <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> <div class="post-date">{{ page.date | date_to_string }}</div>
     {% else %}
       <div class="post-date">{{ page.date | date_to_string }}</div>
